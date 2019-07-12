@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.List{
+  list-style: none;;
+  margin:0;
+  padding:0;
+}
+
+.ListItem{
+  margin-bottom: 20px;
+}
+
+.TabTitle:hover{
+  background-color: #f1f1f1;
+
+}
+.ListItem:last-child{
+  margin-bottom: 0px;
+}
+.TabTitle{
+  background-color: #ddd;
+  border:1px solid #cccccc;
+  padding:5px 10px;
+  cursor:pointer;
+  transition:background-color 0.25s ease-in;
+  user-select: none;
+}
+
+.TabContent{
+  padding:5px 10px;
+
+}
+
+.Pager {
+  margin-top: 20px;
+  user-select: none;
+}
+
+.Page {
+  background-color: #ddd;
+  display: inline-block;
+  border:1px solid #cccccc;
+  padding:5px 10px;
+  margin-right: 7px;
+  cursor:pointer;
+  transition:background-color 0.25s ease-in ;
+}
+
+.Page.active{
+  background-color: #f1f1f1;
+  cursor:default;
+}
+
+.inputClass{
+  margin: 10px;
+  height: 23px;
+}
+
+.button, .buttonFat{
+  margin: 5px;
+  color: #1e1d21;
+  padding: 5px;
+  border-radius: 3px;
+  background: rgba(164, 159, 176, 0.66);
+  transition: 0.2s;
+  outline: none;
+}
+
+.buttonFat{
+  font-weight: 700;
+  color:black;
+  user-select: none;
+}
+
